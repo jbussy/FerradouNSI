@@ -37,7 +37,7 @@ L'origine du projet
 
 En Juin 2019
 
-1.  L'académie dispose déjà d'un JupyterHub fonctionnel.
+1.  L'académie de Paris dispose déjà d'un JupyterHub fonctionnel.
 2.  La Dane a déjà l'expérience de la mise en place de briques dans les
     ENT pour permettre d'accéder à un service tiers avec
     authentification SSO. L'intégration de Jupyterhub dans un ENT
