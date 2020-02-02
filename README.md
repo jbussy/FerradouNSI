@@ -1,20 +1,14 @@
 Objectifs
 =========
 
-Depuis l'ENT, offrir un accès personnel à       
+1. Depuis l'ENT, offrir un accès personnel à JupyterHub à tous les enseignants
+   intéressés par la rédaction de notebooks.
+2. Permettre le partage de notebooks avec les élèves.
+3. Permettre aux élèves de modifier une copie personnalisée du
+   notebook partagé que l'enseignant peut ensuite afficher depuis son
+   interface Capytale.
 
-JupyterHub à tous les enseignants intéressés par la 
-rédaction de notebooks.                             
-                                                    
-2\. Permettre le partage de notebooks avec les      
-élèves.                                             
-                                                    
-3\. Permettre aux élèves de modifier une copie      
-personnalisée du notebook partagé que l'enseignant  
-peut ensuite afficher depuis son interface          
-Capytale.                                           
-
-![](media/image3.png)
+![](image3.png)
 
 Le contexte
 ===========
@@ -45,13 +39,13 @@ En Juin 2019
 
 1.  L'académie dispose déjà d'un JupyterHub fonctionnel.
 2.  La Dane a déjà l'expérience de la mise en place de briques dans les
-    > ENT pour permettre d'accéder à un service tiers avec
-    > authentification SSO. L'intégration de Jupyterhub dans un ENT
-    > semble donc envisageable à relativement court terme.
+    ENT pour permettre d'accéder à un service tiers avec
+    authentification SSO. L'intégration de Jupyterhub dans un ENT
+    semble donc envisageable à relativement court terme.
 3.  Thierry Parmentelat qui a développé à l'INRIA le projet NBHosting a
-    > rencontré le 27 juin 2019 la DANE et la DSI qui se dit prête à
-    > tenter une installation NBHosting sur un serveur académique pour
-    > la rentrée prochaine.
+    rencontré le 27 juin 2019 la DANE et la DSI qui se dit prête à
+    tenter une installation NBHosting sur un serveur académique pour
+    la rentrée prochaine.
 
 Tous les éléments sont donc réunis pour une mise en place d'un service
 (inédit dans l'éducation nationale après l'expérience intégrée dans
@@ -92,7 +86,7 @@ Le calendrier
   et nbgrader (jupyterhub uniquement).
 - 20 janvier : ajout de fichiers annexes possible
 
-> Projets :
+**Projets** :
 
 - Évaluation et tests unitaires
   https://github.com/parmentelat/nbautoeval
@@ -119,7 +113,7 @@ Le schéma fonctionnel
   URL à proposer aux destinataires du partage (2.2). L'ENT dispose déjà
   d'outils pour partager une URL avec la classe.
 
-  ![](media/image1.jpg)
+  ![](image1.jpg)
 
 3. **Accéder à un notebook partagé**
 
@@ -128,4 +122,4 @@ manière invisible par un service (3.1) qui le redirige vers une URL
 personnalisée lui donnant accès à une copie personnelle et modifiable du
 notebook partagé par l'enseignant (3.2).
 
-![](media/image2.jpg)
+![](image2.jpg)
