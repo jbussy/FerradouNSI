@@ -1,0 +1,1 @@
+assert est_paire(2)==False,'Pb avec 2'
